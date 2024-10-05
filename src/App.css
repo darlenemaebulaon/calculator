@@ -1,117 +1,117 @@
-@import url('https://fonts.google.com/specimen/Pixelify+Sans?query=pixel');
-@import url('https://fonts.google.com/specimen/Lato');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
-  background-color: rgb(185, 148, 112);
-  padding-top: 70px;
-} 
+    background-color: rgb(185, 148, 112);
+    padding-top: 70px;
+}
 
 .App {
-  text-align: center;
-  box-sizing: border-box;
-} 
+    text-align: center;
+    box-sizing: border-box;
+}
 
 .NameContainer {
-  background-color: rgb(165, 182, 141);
-  width: 410px;
-  margin: auto;
-  padding: 10px; 
-  border: 5px solid rgb(8, 36, 8);
-  border-radius: 15px;
-  font-family: 'Pixelify Sans';
-  color: rgb(8, 36, 8);
-  text-align: auto;
-  font-size: 1.2em;
-} 
+    background-color: rgb(165, 182, 141);
+    width: 410px;
+    margin: auto;
+    padding: 10px;
+    border: 5px solid rgb(8, 36, 8);
+    border-radius: 15px;
+    font-family: 'Pixelify Sans';
+    color: rgb(8, 36, 8);
+    text-align: auto;
+    font-size: 1.2em;
+}
 
 .Calc {
-  background-color: rgb(165, 182, 141);
-  width: 430px;
-  border: 5px solid rgb(8, 36, 8);
-  border-radius: 15px;
-  margin: auto;
-  margin-top: 20px;
-  box-shadow: 0 0 20px rgb(8, 36, 8);
-} 
+    background-color: rgb(165, 182, 141);
+    width: 430px;
+    border: 5px solid rgb(8, 36, 8);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgb(8, 36, 8);
+}
 
 .Disp {
-  background-color: rgb(177, 151, 174);
-  height: 35px;
-  margin: 35px;
-  border: 5px solid rgb(8, 36, 8);
-  border-radius: 20px;
-  font-family: 'Lato';
-  color: rgb(8, 36, 8);
-  font-size: 1.5em;
-  text-align: right;
-  padding: 10px;
-} 
+    background-color: rgb(177, 151, 174);
+    height: 35px;
+    margin: 35px;
+    border: 5px solid rgb(8, 36, 8);
+    border-radius: 20px;
+    font-family: 'Lato';
+    color: rgb(8, 36, 8);
+    font-size: 1.5em;
+    text-align: right;
+    padding: 10px;
+}
 
 .Buttons {
-  margin: 20px;
-  height: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-  padding-top: 0;
-  border-radius: 10px;
-  row-gap: 15px;
-  column-gap: 15px;
-} 
+    margin: 20px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 10px;
+    row-gap: 15px;
+    column-gap: 15px;
+}
 
 .ButtonKeys {
-  flex: 1 20%;
-  background-color: rgb(177, 151, 174);
-  border: 2px solid rgb(58, 46, 57);
-  border-radius: 10px;
-  font-family: 'Lato';
-  color: rgb(8, 36, 8);
-  font-size: 2em;
-  box-shadow: 0px 2px 1px rgb(148, 139, 198);
-  transition:background-color 0.3s ease;
-} 
+    flex: 1 20%;
+    background-color: rgb(177, 151, 174);
+    border: 2px solid rgb(58, 46, 57);
+    border-radius: 10px;
+    font-family: 'Lato';
+    color: rgb(8, 36, 8);
+    font-size: 2em;
+    box-shadow: 0px 2px 1px rgb(148, 139, 198);
+    transition: background-color 0.3s ease;
+}
 
 .ButtonKeys:hover {
-  background-color: rgb(190, 171, 190);
-} 
+    background-color: rgb(190, 171, 190);
+}
 
 .Buttons :nth-child(4),
 .Buttons :nth-child(8),
 .Buttons :nth-child(12),
 .Buttons :nth-child(15),
 .Buttons :nth-child(16) {
-  color: rgb(205, 193, 255);
-  background-color: rgb(95, 75, 138);
-  box-shadow: 0px 2px 1px rgb(148, 139, 198);
-  transition: background-color 0.3s ease;
-} 
+    color: rgb(205, 193, 255);
+    background-color: rgb(95, 75, 138);
+    box-shadow: 0px 2px 1px rgb(148, 139, 198);
+    transition: background-color 0.3s ease;
+}
 
 .Buttons :nth-child(4):hover,
 .Buttons :nth-child(8):hover,
 .Buttons :nth-child(12):hover,
 .Buttons :nth-child(15):hover,
 .Buttons :nth-child(16):hover {
-  background-color: rgb(59, 48, 82);
-} 
+    background-color: rgb(59, 48, 82);
+}
 
 .Buttons :nth-child(13) {
-  color: rgb(205, 193, 255);
-  background-color: rgb(39, 33, 69);
-  box-shadow: 0px 2px 1px rgb(148, 139, 198);
-  transition: background-color 0.3s ease;
-} 
+    color: rgb(205, 193, 255);
+    background-color: rgb(39, 33, 69);
+    box-shadow: 0px 2px 1px rgb(148, 139, 198);
+    transition: background-color 0.3s ease;
+}
 
 .Buttons :nth-child(13):hover {
-  background-color: rgb(59, 48, 82);
-} 
+    background-color: rgb(59, 48, 82);
+}
 
 .Buttons :last-child {
-  color: rgb(205, 193, 255);
-  background-color: rgb(29, 9, 50);
-  box-shadow: 0px 2px 1px rgb(148, 139, 198);
-  transition: background-color 0.3s ease;
-} 
+    color: rgb(205, 193, 255);
+    background-color: rgb(29, 9, 50);
+    box-shadow: 0px 2px 1px rgb(148, 139, 198);
+    transition: background-color 0.3s ease;
+}
 
 .Buttons :last-child:hover {
-  background-color: (59, 48, 82);
+    background-color: rgb(59, 48, 82);
 }
