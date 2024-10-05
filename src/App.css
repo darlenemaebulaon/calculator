@@ -1,6 +1,8 @@
+@import url('https://fonts.google.com/specimen/Anton?query=anton');
+
 * {
-  font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgb(8, 36, 8);
+  font-family: 'Anton';
 } 
 
 body {
