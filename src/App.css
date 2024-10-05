@@ -1,6 +1,5 @@
-* {
-  color: rgb(8, 36, 8);
-} 
+@import url('https://fonts.google.com/specimen/Pixelify+Sans?query=pixel');
+@import url('https://fonts.google.com/specimen/Lato');
 
 body {
   background-color: #B99470;
@@ -19,6 +18,7 @@ body {
   padding: 10px; 
   border: 5px solid rgb(8, 36, 8);
   border-radius: 15px;
+  font-family: 'Pixelify Sans';
   color: rgb(8, 36, 8);
   text-align: auto;
   font-size: 1.2em;
@@ -40,6 +40,8 @@ body {
   margin: 35px;
   border: 5px solid rgb(8, 36, 8);
   border-radius: 20px;
+  font-family: 'Lato';
+  color: rgb(8, 36, 8);
   font-size: 1.5em;
   text-align: right;
   padding: 10px;
@@ -62,6 +64,8 @@ body {
   background-color: rgb(177, 151, 174);
   border: 2px solid rgb(58, 46, 57);
   border-radius: 10px;
+  font-family: 'Lato';
+  color: rgb(8, 36, 8);
   font-size: 2em;
   box-shadow: 0px 2px 1px #948bc6;
   transition:background-color 0.3s ease;
